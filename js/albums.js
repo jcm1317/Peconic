@@ -44,7 +44,7 @@ var manifest = {
     },
   ]
 };
-
+/*
 $(function() {
   var albums = manifest.albums;
   albums.forEach(function(album) {
@@ -66,7 +66,7 @@ $(function() {
   });
 
 });
-
+*/
 $(document).ready(function(){
   // Set infoBox width to size of album art
   var imgWidth = $('.album-art').width();
