@@ -48,7 +48,7 @@ var manifest = {
 $(function() {
   var albums = manifest.albums;
   albums.forEach(function(album) {
-     $(".albums")/.append(
+     $(".albums").append(
       "<div class='col-xs-12'>" +
         "<img class='album-art' src='assets/"+album.img+"'>" +
         "<div class='infoBox'>" +
