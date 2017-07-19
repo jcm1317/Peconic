@@ -60,3 +60,12 @@ span.right {
   position: fixed;
   margin-left: 410px;
 }
+
+.affix-top {
+    /* Initial items - intentially empty */
+}
+
+.affix {
+    top:50px;
+    position:fixed;
+}
