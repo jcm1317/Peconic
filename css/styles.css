@@ -16,9 +16,10 @@ div.offset {
 }
 
 .infoBox {
-	display: grid;
-	margin-bottom: 15px;
-	background: #ffb0b0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    background: #ffb0b0;
 }
 
 img {
