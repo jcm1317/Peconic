@@ -15,7 +15,7 @@ div.offset {
 	height: 100px;
 }
 
-.infoBox {
+.album {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
