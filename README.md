@@ -39,7 +39,7 @@
 8. See upload instructions to upload.
 
 ## Upload instructions
-1. navigate to `https://console.aws.amazon.com/quickstart-website/website/aws-website-peconicrecordscom-9icmv`
+1. navigate to [https://console.aws.amazon.com/quickstart-website/website/aws-website-peconicrecordscom-9icmv]
 2. Under the 'source code' box, click 'Manage files in Amazon S3' link
 3. go to folder you want to upload stuff to (assets for pictures)
 4. click 'upload' button
