@@ -33,7 +33,7 @@ li {
     margin-top: .5em;
     z-index: 500;
 
-    /* white-space: nowrap; */
+    white-space: nowrap;
 }
 
 .listed-dropdown {
@@ -81,4 +81,8 @@ span.right {
 .affix {
     top:50px;
     position:fixed;
+}
+
+.hidden {
+     display:none;
 }
