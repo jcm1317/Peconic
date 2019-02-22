@@ -1,18 +1,18 @@
 body {
-	font-family: "Courier New";
-	background-repeat: no-repeat;
-	padding-left: 5em;
-	margin: 0;
-	padding: 0;
-	min-width: 450px;
+    font-family: "Courier New";
+    background-repeat: no-repeat;
+    padding-left: 5em;
+    margin: 0;
+    padding: 0;
+    min-width: 450px;
 }
 
 .container {
-	width: 100%;
+    width: 100%;
 }
 
 div.offset {
-	height: 100px;
+    height: 100px;
 }
 
 .album {
@@ -23,43 +23,55 @@ div.offset {
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 li {
-	list-style-type:none;
-	margin-top: .5em;
-	z-index: 500;
+    list-style-type:none;
+    margin-top: .5em;
+    z-index: 500;
+
+    /* white-space: nowrap; */
 }
 
+.listed-dropdown {
+    padding: 0 0;
+}
+
+.listed-dropdown > a {
+    padding-left: 14px;
+}
+
+
 a {
-	text-decoration: underline;
-	color: #000cff
+    text-decoration: underline;
+    color: #000cff
 }
 
 div.textBuffer {
-	height: 10px;
+    height: 10px;
 }
 
 span.left {
-	float: left;
+    float: left;
 }
 
 span.right {
-	float: right;
+    float: right;
 }
+
 #page-wrap {
-  width: 600px;
-  margin: 15px auto;
-  position: relative;
+    width: 600px;
+    margin: 15px auto;
+    position: relative;
 }
 
 #sidebar {
-  width: 190px;
-  position: fixed;
-  margin-left: 410px;
+    width: 190px;
+    position: fixed;
+    margin-left: 410px;
 }
 
 .affix-top {
