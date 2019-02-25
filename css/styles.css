@@ -22,17 +22,34 @@ div.offset {
     background: #ffb0b0;
 }
 
+.coral {
+    background: #f88379;
+}
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-li {
+.carousel-item > img {
+    max-height: 500px;
+}
+
+.peopleCarouselImg {
+  max-height: 700px;
+  height: 700px;
+  background: black;
+}
+img .center {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+ul > li {
     list-style-type:none;
     margin-top: .5em;
     z-index: 500;
-
     white-space: nowrap;
 }
 
@@ -44,6 +61,10 @@ li {
     padding-left: 14px;
 }
 
+.no-border {
+  border: none;
+  background: none;
+}
 
 a {
     text-decoration: underline;
@@ -85,4 +106,8 @@ span.right {
 
 .hidden {
      display:none;
+}
+
+.list-group-item {
+    display: list-item;
 }
