@@ -22,24 +22,12 @@ div.offset {
     background: #ffb0b0;
 }
 
-.coral {
-    background: #f88379;
-}
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-.carousel-item > img {
-    max-height: 500px;
-}
-
-.peopleCarouselImg {
-  max-height: 700px;
-  height: 700px;
-  background: black;
-}
 img .center {
     width: 100%;
     height: 100%;
